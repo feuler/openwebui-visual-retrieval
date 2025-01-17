@@ -1,11 +1,13 @@
 ## Visual Retrieval - Open-Webui - ColQwen2 / Vespa
 
-## visual retrieval via ColQwen2 (over infinity embedding api) and local vespa database
+Visual retrieval Open-Webui function (+vespa deploy and pdf file feed) via ColQwen2 over infinity embedding api and local vespa database
    Using concept: https://blog.vespa.ai/scaling-colpali-to-billions/
    
-Requirements:
+### Requirements:
  - vespa (docker container)
  - Vision language model - e.g. Qwen2-VL-7B (via openai compatible api)
+
+### Usage:
 
 1. Clone repo
 2. Create python venv or conda env
@@ -30,7 +32,7 @@ Requirements:
    python deploy_vespa_app_local.py --vespa_application_name MyApplicationName
    ```
 
-9. Embed and feed pdf files from a folder to vespa
+9. Feed pdf files from a folder to vespa with ColQwen2
    ```
    python feed-vespa_colqwen2-api.py --application_name MyApplicationName --vespa_schema_name pdf_page --pdf_folder /path/to/my/pdf/files/
    ```
