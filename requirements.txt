@@ -5,3 +5,4 @@ pypdf
 openai
 numpy
 python-dotenv
+infinity_emb
