@@ -67,7 +67,7 @@ Visual retrieval Open-Webui function (+vespa deploy and pdf file feed) via ColQw
           api_key: "sk-1111"
           extra_body: { "modality": "text" }
           model_info:
-            id: "1"
+            id: "2"
             mode: "embedding"
     ```
 
