@@ -194,7 +194,7 @@ class Pipe:
             messages = [
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant. Your task is to write a comprehensive and detailed response based on the user query using only the information from the attached satellite documentation images. If there is not enough information to respond to the user query you say i don't have enough context.",
+                    "content": "You are a helpful assistant. Your task is to write a comprehensive and detailed response based on the user query using only the information from the attached documentation images. If there is not enough information to respond to the user query you say i don't have enough context.",
                 },
                 {"role": "user", "content": content},
             ]
